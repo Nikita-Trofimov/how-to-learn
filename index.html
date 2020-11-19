@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
@@ -22,7 +21,7 @@
     </header>
 
     <main class="content">
-      <section class="description">
+      <article class="description">
         <div class="two-columns">
           <h2 class="two-columns__brief">
             Главные проблемы в обучении
@@ -37,50 +36,50 @@
               Эти же техники применяются на примере обучения в Практикуме.</p>
           </div>
         </div>
-      </section>
+      </article>
 
       <section class="techniques">
         <h2 class="section-title">Техники обучения</h2>
         <p class="section-subtitle">Пять практик от Барбары Оакли</p>
-        <div class="cards">
-          <div class="cards__item">
+        <ul class="cards">
+          <li class="cards__item">
             <img src="./images/cards-attention.png" alt="картинка с книгой 101 эссе, которые изменят ваше мышление" class="cards__image">
-            <p class="cards__title">Два вида внимания</p>
+            <h3 class="cards__title">Два вида внимания</h3>
             <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
-          </div>
-          <div class="cards__item">
+          </li>
+          <li class="cards__item">
             <img src="./images/cards-recall.png" alt="картика со статуей" class="cards__image">
-            <p class="cards__title">Recall</p>
+            <h3 class="cards__title">Recall</h3>
             <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
-          </div>
-          <div class="cards__item">
+          </li>
+          <li class="cards__item">
             <img src="./images/cards-interliving.png" alt="картика с большим холлом" class="cards__image">
-            <p class="cards__title">Интерливинг</p>
+            <h3 class="cards__title">Интерливинг</h3>
             <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
-          </div>
-          <div class="cards__item">
+          </li>
+          <li class="cards__item">
             <img src="./images/cards-question.png" alt="картика с белой комнатой и человеком" class="cards__image">
-            <p class="cards__title">Вопросы</p>
+            <h3 class="cards__title">Вопросы</h3>
             <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
-          </div>
-          <div class="cards__item">
+          </li>
+          <li class="cards__item">
             <img src="./images/cards-competence.png" alt="картика со стопкой книг на руке" class="cards__image">
-            <p class="cards__title">Иллюзия компетентности</p>
+            <h3 class="cards__title">Иллюзия компетентности</h3>
             <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
-          </div>
-        </div>
+          </li>
+        </ul>
       </section>
 
       <section class="video">
         <h2 class="section-title">Видео нa TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-        <div class="video__iframes">
-          <iframe src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen class="video__iframe">Видео с youtube The first 20 hours -- how to learn anything | Josh Kaufman | TEDxCSU</iframe>
-          <iframe src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen class="video__iframe">Видео с youtube Inside the mind of a master procrastinator | Tim Urban</iframe>
-        </div>
+        <ul class="video__iframes">
+          <li class="video__iframes-list"><iframe src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen class="video__iframe"></iframe></li>
+          <li class="video__iframes-list"><iframe src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen class="video__iframe"></iframe></li>
+        </ul>
       </section>
 
-      <section class="oakley">
+      <article class="oakley">
         <div class="two-columns">
           <h2 class="two-columns__brief">История Барбары Оакли.</h2>
           <div class="two-columns__main-text">
@@ -89,7 +88,7 @@
                Оказалось, если вам что-то «плохо даётся», ваши добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.</p>
           </div>
         </div>
-      </section>
+      </article>
 
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
@@ -101,42 +100,42 @@
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
         <p class="section-subtitle">Про учёбу и мозг</p>
-        <div class="table">
-          <div class="table__cell">
+        <ul class="table">
+          <li class="table__cell">
             <h3 class="table__heading">86 миллиардов</h3>
             <p class="table__text">Число нейронов в мозге человека</p>
-          </div>
-          <div class="table__cell">
+          </li>
+          <li class="table__cell">
             <h3 class="table__heading">2.1 миллиарда</h3>
             <p class="table__text">Число нуждающихся в повышении квалификации</p>
             <p class="table__text">Всемирный Банк, 2017</p>
-          </div>
-          <div class="table__cell">
+          </li>
+          <li class="table__cell">
             <h3 class="table__heading">1000 терабайт</h3>
             <p class="table__text">Объём памяти человека</p>
-          </div>
-          <div class="table__cell">
+          </li>
+          <li class="table__cell">
             <h3 class="table__heading">500 триллионов</h3>
             <p class="table__text">Число ответственных за обучение нервных синапсов у взрослого человека</p>
-          </div>
-          <div class="table__cell">
+          </li>
+          <li class="table__cell">
             <h3 class="table__heading">420 миллионов</h3>
             <p class="table__text">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
             <p class="table__text">Всемирный Банк, 2017</p>
-          </div>
-          <div class="table__cell">
+          </li>
+          <li class="table__cell">
             <h3 class="table__heading">17–20 лет</h3>
             <p class="table__text">Пик обучаемости</p>
-          </div>
-          <div class="table__cell">
+          </li>
+          <li class="table__cell">
             <h3 class="table__heading">1885 год</h3>
             <p class="table__text">Открытие кривой забывания</p>
-          </div>
-          <div class="table__cell">
+          </li>
+          <li class="table__cell">
             <h3 class="table__heading">1889 год</h3>
             <p class="table__text">Открытие условного рефлекса</p>
-          </div>
-        </div>
+          </li>
+        </ul>
       </section>
 
       <section class="khan">
@@ -205,12 +204,20 @@
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <div class="resources__logo-zone">
-          <img src="./images/logo/resources-arzamas.svg" alt="логотип арзамас" class="resources__logo">
-          <img src="./images/logo/resources-n1.svg" alt="логотип n+1" class="resources__logo">
-          <img src="./images/logo/resources-strelka.svg" alt="логотип стрелка" class="resources__logo">
-          <img src="./images/logo/resources-polka.svg" alt="логотип полка" class="resources__logo">
-        </div>
+        <ul class="resources__logo-zone">
+          <li class="resources__logo">
+            <a href="https://arzamas.academy/" class="resources__logo-link"><img src="./images/logo/resources-arzamas.svg" alt="логотип арзамас" class="resources__logo-image"></a>
+          </li>
+          <li class="resources__logo">
+            <a href="https://nplus1.ru/" class="resources__logo-link"><img src="./images/logo/resources-n1.svg" alt="логотип n+1" class="resources__logo-image"></a>
+          </li>
+          <li class="resources__logo">
+            <a href="https://strelka.com/ru" class="resources__logo-link"><img src="./images/logo/resources-strelka.svg" alt="логотип стрелка" class="resources__logo-image"></a>
+          </li>
+          <li class="resources__logo">
+            <a href="https://polka.academy/" class="resources__logo-link"><img src="./images/logo/resources-polka.svg" alt="логотип полка" class="resources__logo-image"></a>
+          </li>
+        </ul>
       </section>
     </main>
     <footer class="footer">
